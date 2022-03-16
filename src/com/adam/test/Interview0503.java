@@ -1,17 +1,19 @@
 package com.adam.test;
 
 /**
- * @author adam
+ * @author: adam
  * contact: luminghi@hotmail.com
- * date: 2021/4/16 17:37
+ * date: 2021/4/18 17:36
  * version: 1.0.0
  */
 public class Interview0503 {
     public static void main(String[] args) {
-
+        int num = -1;
+        Solution solution = new Solution();
+        System.out.println(solution.reverseBits(num));
     }
 
-    static class Solution{
+    static class Solution {
         public int reverseBits(int num) {
             int mask = 0;
             int ans = 0;

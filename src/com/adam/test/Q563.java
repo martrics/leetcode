@@ -1,7 +1,5 @@
 package com.adam.test;
 
-import sun.reflect.generics.tree.Tree;
-
 /**
  * @author adam
  * contact: luminghi@hotmail.com
